@@ -1,3 +1,24 @@
+# Environment variable files
+.env
+.env.*
+!.env.example
+.vscode/
+
+# Dependency directories
+node_modules/
+dist-ssr
+*.local
+
+# Build / generate output
+dist
+
+# OS generated files
+.DS_Store
+
+# Test coverage
+coverage
+coverage/
+
 # Logs
 logs
 *.log
@@ -7,10 +28,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
 
 # Editor directories and files
 .vscode/*
